@@ -7,7 +7,7 @@
 **KingKong Robotics「Crab Robot Open-source Challenge 2026」への応募作品です。**
 オープンソースのカニロボット [Jumper](https://github.com/KingKongRobotics/jumper) 2 体が、強化学習で相撲をゼロから覚えました。その千秋楽・結びの一番を、相撲中継のような映像にしています。
 
-▶ **動画:** X — *リンクは投稿後に追加* ・ YouTube（チャプター付き）— *リンクは投稿後に追加*
+▶ **動画:** X — *リンクは投稿後に追加* ・ [YouTube（チャプター付き）](https://youtu.be/CPhzGBQJm7c)
 
 > 映像はすべて **MuJoCo の物理シミュレーション**を **Blender** で描き直したもので、実機の映像ではありません。ロボットの体・モーター・公式の歩行方策は変えていません。力士名・会場・賜杯は架空です。音楽と効果音はすべてコードで合成しました。
 

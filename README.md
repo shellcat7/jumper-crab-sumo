@@ -13,7 +13,7 @@ reinforcement learning and fought a final, filmed like a sumo broadcast. The fil
 ceremony, the tachiai, an 18-second chest-to-chest bout, a comeback at the straw, a video review
 of the deciding foot, and the champion.
 
-▶ **Video:** X — *link to be added* · YouTube (with chapters) — *link to be added* ·
+▶ **Video:** X — *link to be added* · [YouTube (with chapters)](https://youtu.be/CPhzGBQJm7c) ·
 日本語: [README.ja.md](README.ja.md)
 
 > Everything shown is a **MuJoCo physics simulation**, re-rendered in **Blender**. It is not real-robot
