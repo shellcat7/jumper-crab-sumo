@@ -1,0 +1,12 @@
+{"size": [1920, 1080], "fps": 30,
+ "note": "The highlight cut (10/24, the user: yes to a 20-30 s highlight that leads to the full video): the tachiai, the ceremony, the locked struggle, the comeback at the straw and the kimarite, the video review, the champion, a card pointing to the full version. Filled by tools/media/fill_v2.py, scored by tools/media/score.py.",
+ "items": [
+ {"clip": "HERO3", "start": 15.0, "seconds": 2.6, "fade": 0.1, "cue": "cold", "hits": [15.5],
+  "text": "Two crab robots learned sumo from scratch with AI\nAIで相撲をゼロから学んだカニロボット"},
+ {"clip": "HERO3", "start": 8.7, "seconds": 2.2, "cue": "hl", "text": "The ceremony: chiri-chōzu\n塵手水"},
+ {"clip": "HERO3", "start": 23.5, "seconds": 3.6, "cue": "hl", "text": "Locked chest to chest for 18 seconds\n胸を合わせて18秒の攻防"},
+ {"clip": "HERO3", "start": 30.6, "seconds": 4.8, "cue": "hl", "hits": [33.77]},
+ {"clip": "VERDICT", "start": 0.6, "seconds": 3.8, "cue": "verdict", "hits": [1.6]},
+ {"clip": "TROPHY", "start": 0.4, "seconds": 2.6, "cue": "trophy", "sound": "cheer", "text": "Champion: Hasami-no-Sato\n優勝　鋏ノ里"},
+ {"card": ["カニの大相撲", "Full version ↓　本編はこちら", "#Jumper #CrabRobot #OpenSourceRobot"], "seconds": 2.8, "sound": "hyoshigi", "cue": "end"}
+]}

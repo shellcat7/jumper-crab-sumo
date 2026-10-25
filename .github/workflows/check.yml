@@ -1,0 +1,24 @@
+name: check
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  patch-and-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: The patch applies to KingKongRobotics/jumper @ 61d0652
+        run: |
+          git clone --quiet https://github.com/KingKongRobotics/jumper.git upstream
+          git -C upstream checkout --quiet 61d065219fca767f3142c8f10aff59eae5a5a004
+          git -C upstream apply --check "$GITHUB_WORKSPACE/jumper_patch/jumper-sumo.patch"
+          git -C upstream apply "$GITHUB_WORKSPACE/jumper_patch/jumper-sumo.patch"
+      - name: The files under jumper/ are the patched files
+        run: |
+          cd jumper
+          find . -type f -name '*.py' | while read -r f; do diff -q --strip-trailing-cr "$f" "../upstream/$f" > /dev/null || { echo "differs: $f"; exit 1; }; done
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Every Python file compiles
+        run: python -m compileall -q tools jumper upstream/tasks/jumper/sumo
+      - name: The checkpoints match SHA256SUMS
+        run: cd models && sha256sum -c SHA256SUMS

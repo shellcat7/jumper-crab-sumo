@@ -1,0 +1,16 @@
+Crab Sumo (jumper-crab-sumo)
+
+This project is built on Jumper by KingKong Robotics
+(https://github.com/KingKongRobotics/jumper), licensed under the Apache License 2.0.
+Its NOTICE is reproduced in NOTICE.upstream.
+
+Changes: the files under jumper/ are new or modified copies of files of that repository at
+commit 61d065219fca767f3142c8f10aff59eae5a5a004; jumper_patch/jumper-sumo.patch lists every
+change against that commit (the sumo task, the tactician, the referee, the ceremony, and small
+changes to the simulation backend, the posture task and the experiment settings).
+
+The checkpoints in models/ were trained from the official walking policy of that repository
+with the code in this project.
+
+Everything in the video and in tools/ is our own: the arena, crowd, cup and graphics, and the
+music and sound, which are synthesized in code.

@@ -1,0 +1,34 @@
+{
+ "title": "十月場所　千秋楽",
+ "bout": "結びの一番",
+ "east": {
+  "shikona": "鋏ノ海",
+  "rank": "横綱",
+  "origin": "雲上",
+  "heya": "鋏浦",
+  "record": [
+   13,
+   1
+  ],
+  "romaji": "Hasami-no-Umi",
+  "rank_en": "Yokozuna"
+ },
+ "west": {
+  "shikona": "鋏ノ里",
+  "rank": "大関",
+  "origin": "雲上",
+  "heya": "鋏浦",
+  "record": [
+   12,
+   2
+  ],
+  "romaji": "Hasami-no-Sato",
+  "rank_en": "Ozeki"
+ },
+ "h2h": [
+  1305,
+  1106
+ ],
+ "note": "鋏ノ海 = waza47 (waza39 + variety 30, bddcd1514b46); 鋏ノ里 = waza39 (41d5e5003d77); both on sumo_cont700; h2h = rules15 (10/21 Colab, 1024 rings x 20 s)",
+ "title_en": "October Tournament · Final Day · Final Bout"
+}

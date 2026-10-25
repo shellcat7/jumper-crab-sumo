@@ -1,0 +1,315 @@
+{
+ "size": [
+  1920,
+  1080
+ ],
+ "fps": 30,
+ "note": "Draft v3 (10/23 evening, the user on v2: the profiles showed the robots' backs, English under the broadcast graphics, the ceremony named as in real sumo (chiri-chozu), the champion with the cup, waza70's claws in the behind the scenes). HERO2 / HERO3 / TROPHY / CLAW are filled by tools/media/fill_v2.py. The final (A_118) as it was. 10/23 21:00 (the user on v3): odd sound -> synthesized hall voices, applause and music (tools/media/score.py, `cue` / `hits`); bottom captions cut off -> graphics inside the bottom tenth; the replay ends on a video review of the foot over the straw (VERDICT); a plainer strength chart.",
+ "items": [
+  {
+   "clip": "HERO3",
+   "start": 15.0,
+   "seconds": 3.0,
+   "fade": 0.15,
+   "cue": "cold",
+   "hits": [
+    15.5
+   ]
+  },
+  {
+   "card": [
+    "カニの大相撲",
+    "十月場所　千秋楽　結びの一番",
+    "CRAB SUMO: two Jumper robots, simulated in MuJoCo"
+   ],
+   "seconds": 3.0,
+   "sound": "hyoshigi",
+   "cue": "title"
+  },
+  {
+   "clip": "HERO2",
+   "start": 9.0,
+   "seconds": 3.4,
+   "text": "How sumo works ①  The ceremony (chiri-chōzu)\n相撲の流れ①　儀式（塵手水）",
+   "cue": "demo"
+  },
+  {
+   "clip": "HERO2",
+   "start": 14.3,
+   "seconds": 2.5,
+   "text": "②  The charge (tachiai)\n②　立ち合い",
+   "cue": "demo",
+   "hits": [
+    15.5
+   ]
+  },
+  {
+   "clip": "HERO2",
+   "start": 16.3,
+   "seconds": 3.5,
+   "text": "③  Push the opponent out of the ring, or make it touch down: win\n③　土俵の外に出すか、足以外をつかせたら勝ち",
+   "cue": "demo",
+   "hits": [
+    19.63
+   ]
+  },
+  {
+   "profile": {
+    "side": "east",
+    "shikona": "鋏ノ海",
+    "romaji": "Hasami-no-Umi",
+    "rank": [
+     "Yokozuna",
+     "横綱"
+    ],
+    "portrait": "../jumper-runs/blender/portraits_hero3_front/portrait_robot_95.png",
+    "facts": [
+     [
+      "Record this tournament  13 – 1",
+      "今場所 13勝1敗"
+     ],
+     [
+      "Wins 52.8 % of 5,338 test bouts",
+      "対戦テストの勝率"
+     ],
+     [
+      "Trained to vary its moves (variety bonus)",
+      "技の多彩さに報酬を与えて学習"
+     ]
+    ],
+    "moves": [
+     {
+      "kimarite": "oshidashi",
+      "en": "push-out",
+      "ja": "押し出し",
+      "share": 0.512
+     },
+     {
+      "kimarite": "hikiotoshi",
+      "en": "pull-down",
+      "ja": "引き落とし",
+      "share": 0.292
+     },
+     {
+      "kimarite": "yorikiri",
+      "en": "force-out",
+      "ja": "寄り切り",
+      "share": 0.156
+     }
+    ]
+   },
+   "seconds": 3.5,
+   "cue": "intro"
+  },
+  {
+   "clip": "media/raw/20261022-0557_scene_sumo-hl-east-B_101.mp4",
+   "start": 10.3,
+   "seconds": 3.0,
+   "text": "Signature: hikiotoshi (pull-down)\n得意技：引き落とし",
+   "cue": "intro",
+   "zoom": 1.09
+  },
+  {
+   "clip": "HL_east_B_108",
+   "start": 7.8,
+   "seconds": 3.0,
+   "text": "yorikiri (force-out)\n寄り切り",
+   "cue": "intro",
+   "zoom": 1.09
+  },
+  {
+   "profile": {
+    "side": "west",
+    "shikona": "鋏ノ里",
+    "romaji": "Hasami-no-Sato",
+    "rank": [
+     "Ozeki",
+     "大関"
+    ],
+    "portrait": "../jumper-runs/blender/portraits_hero3_front/portrait_opponent_95.png",
+    "facts": [
+     [
+      "Record this tournament  12 – 2",
+      "今場所 12勝2敗"
+     ],
+     [
+      "Wins 55.1 % of 27,296 test bouts",
+      "対戦テストの勝率"
+     ],
+     [
+      "The pusher: 70 % of its wins by push-out",
+      "押し相撲：勝ちの 7 割が押し出し"
+     ]
+    ],
+    "moves": [
+     {
+      "kimarite": "oshidashi",
+      "en": "push-out",
+      "ja": "押し出し",
+      "share": 0.701
+     },
+     {
+      "kimarite": "yorikiri",
+      "en": "force-out",
+      "ja": "寄り切り",
+      "share": 0.149
+     },
+     {
+      "kimarite": "hikiotoshi",
+      "en": "pull-down",
+      "ja": "引き落とし",
+      "share": 0.12
+     }
+    ]
+   },
+   "seconds": 3.5,
+   "cue": "intro"
+  },
+  {
+   "clip": "HL_west_C_138",
+   "start": 11.0,
+   "seconds": 3.0,
+   "text": "A pull-down when it is pushed\n押し込まれての引き落とし",
+   "cue": "intro",
+   "zoom": 1.09
+  },
+  {
+   "clip": "HL_h2h-east_A_128",
+   "start": 19.8,
+   "seconds": 3.5,
+   "text": "Past meetings  1,305 – 1,106: Hasami-no-Umi by yorikiri\n過去の対戦：鋏ノ海の寄り切り",
+   "cue": "h2h",
+   "zoom": 1.09
+  },
+  {
+   "clip": "HL_h2h-west_A_116",
+   "start": 12.8,
+   "seconds": 3.0,
+   "text": "…and Hasami-no-Sato by hikiotoshi\n鋏ノ里の引き落とし",
+   "cue": "h2h",
+   "zoom": 1.09
+  },
+  {
+   "versus": {
+    "east": {
+     "shikona": "鋏ノ海",
+     "romaji": "Hasami-no-Umi",
+     "rank": "Yokozuna",
+     "portrait": "../jumper-runs/blender/portraits_hero3_front/portrait_robot_95.png"
+    },
+    "west": {
+     "shikona": "鋏ノ里",
+     "romaji": "Hasami-no-Sato",
+     "rank": "Ozeki",
+     "portrait": "../jumper-runs/blender/portraits_hero3_front/portrait_opponent_95.png"
+    },
+    "h2h": [
+     1305,
+     1106
+    ]
+   },
+   "seconds": 3.0,
+   "sound": "hyoshigi",
+   "cue": "versus"
+  },
+  {
+   "clip": "HERO3",
+   "start": 0.5,
+   "seconds": 7.0,
+   "cue": "final_intro"
+  },
+  {
+   "clip": "HERO3",
+   "start": 8.0,
+   "seconds": 5.5,
+   "text": "Chiri-chōzu: a clap, then claws spread wide: “no weapons”\n塵手水（ちりちょうず）：柏手を打ち、両手を広げて武器がないことを示す",
+   "cue": "ceremony"
+  },
+  {
+   "clip": "HERO3",
+   "start": 13.5,
+   "seconds": 22.0,
+   "cue": "bout",
+   "hits": [
+    15.5,
+    33.77
+   ]
+  },
+  {
+   "clip": "HERO3",
+   "start": 37.6,
+   "seconds": 6.6,
+   "cue": "replay"
+  },
+  {
+   "clip": "VERDICT",
+   "start": 0.0,
+   "seconds": 4.4,
+   "cue": "verdict",
+   "hits": [
+    1.6
+   ],
+   "note": "tools/blender/verdict_shot.py + verdict_clip.py: the loser's foot down outside the straw, held"
+  },
+  {
+   "clip": "TROPHY",
+   "start": 0.0,
+   "seconds": 3.5,
+   "sound": "cheer",
+   "text": "Champion: Hasami-no-Sato\n優勝　鋏ノ里",
+   "cue": "trophy"
+  },
+  {
+   "card": [
+    "舞台裏",
+    "ロボットは相撲をゼロから学んだ",
+    "Behind the scenes: the robots learned sumo from scratch"
+   ],
+   "seconds": 3.0,
+   "sound": "murmur",
+   "cue": "bts"
+  },
+  {
+   "clip": "media/raw/20261010-0107_scene_sumo-first-bout-official-vs-official.mp4",
+   "start": 1.0,
+   "seconds": 4.0,
+   "text": "Day 1: two walking robots, just bumping\n1 日目：歩いてぶつかるだけ",
+   "cue": "bts"
+  },
+  {
+   "clip": "media/raw/20261010-1727_scene_sumo-ritual-yominofuji-vs-oshidashiumi.mp4",
+   "start": 8.0,
+   "seconds": 4.0,
+   "text": "Failure: false starts at the tachiai\n失敗：合図を待てずに飛び出す（待った）",
+   "cue": "bts",
+   "zoom": 1.13
+  },
+  {
+   "image": "media/final/lineage_2026-10-23b.png",
+   "seconds": 5.0,
+   "cue": "bts"
+  },
+  {
+   "clip": "CLAW",
+   "tail": 5.0,
+   "seconds": 4.5,
+   "text": "Extra training for the claws: claw wins about 5 % → 15 %\n追加特訓：ハサミ技での勝ちが約 5 % → 15 % に",
+   "cue": "bts",
+   "hits": [
+    6.98
+   ],
+   "zoom": 1.09
+  },
+  {
+   "card": [
+    "十月場所　閉幕",
+    "THE END · Thank you for watching　ご覧いただきありがとうございました",
+    "#Jumper #CrabRobot #OpenSourceRobot",
+    "MuJoCo simulation built on the official Jumper policy (Apache-2.0)"
+   ],
+   "seconds": 4.0,
+   "sound": "hyoshigi",
+   "cue": "end"
+  }
+ ]
+}

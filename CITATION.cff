@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Crab Sumo: two Jumper crab robots that learned sumo"
+type: software
+authors:
+  - name: "Crab Sumo team"
+license: Apache-2.0
+repository-code: "https://github.com/shellcat7/jumper-crab-sumo"
+date-released: 2026-10-25
+keywords:
+  - reinforcement learning
+  - MuJoCo
+  - robot sumo
+  - legged robots
+  - Jumper
+references:
+  - type: software
+    title: "Jumper"
+    authors:
+      - name: "KingKong Robotics"
+    repository-code: "https://github.com/KingKongRobotics/jumper"
+    license: Apache-2.0
